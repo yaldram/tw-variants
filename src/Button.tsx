@@ -8,7 +8,7 @@ const baseButton = tv({
       orange: "",
       green: "",
     },
-    varaint: {
+    variant: {
       solid: "",
       outline: "",
     },
@@ -16,44 +16,44 @@ const baseButton = tv({
   compoundVariants: [
     {
       colorScheme: "green",
-      varaint: "solid",
+      variant: "solid",
       class:
         "bg-green-500 dark:bg-green-200 text-white dark:text-gray-800 hover:bg-green-600 dark:hover:bg-green-300 hover:disabled:bg-green-500 dark:hover:disabled:bg-green-200 active:bg-green-700 dark:active:bg-green-400",
     },
     {
       colorScheme: "red",
-      varaint: "solid",
+      variant: "solid",
       class:
         "bg-red-500 dark:bg-red-200 text-white dark:text-gray-800 hover:bg-red-600 dark:hover:bg-red-300  hover:disabled:bg-red-500 dark:hover:disabled:bg-red-200 active:bg-red-700 dark:active:bg-red-400",
     },
     {
       colorScheme: "orange",
-      varaint: "solid",
+      variant: "solid",
       class:
         "bg-orange-500 dark:bg-orange-200 text-white dark:text-gray-800 hover:bg-orange-600 dark:hover:bg-orange-300 hover:disabled:bg-orange-500 dark:hover:disabled:bg-orange-200 active:bg-orange-700 dark:active:bg-orange-400",
     },
     {
       colorScheme: "green",
-      varaint: "outline",
+      variant: "outline",
       class:
-        "text-green-600 dark:text-green-200 bg-transparent border-solid border border-current hover:bg-green-50 dark:hover:bg-green-200 dark:hover:bg-opacity-[.12] active:bg-green-100 dark:active:bg-green-200 dark:active:bg-opacity-[.24]",
+        "text-green-600 dark:text-green-200 bg-transparent border-solid border border-current hover:bg-green-50 dark:hover:bg-green-200/[.12] active:bg-green-100 dark:active:bg-green-200/[.24]",
     },
     {
       colorScheme: "red",
-      varaint: "outline",
+      variant: "outline",
       class:
-        "text-red-600 dark:text-red-200 bg-transparent border-solid border border-current hover:bg-red-50 dark:hover:bg-red-200 dark:hover:bg-opacity-[.12] active:bg-red-100 dark:active:bg-red-200 dark:active:bg-opacity-[.24]",
+        "text-red-600 dark:text-red-200 bg-transparent border-solid border border-current hover:bg-red-50 dark:hover:bg-red-200/[.12] active:bg-red-100 dark:active:bg-red-200/[.24]",
     },
     {
       colorScheme: "orange",
-      varaint: "outline",
+      variant: "outline",
       class:
-        "text-orange-600 dark:text-orange-200 bg-transparent border-solid border border-current hover:bg-orange-50 dark:hover:bg-orange-200 dark:hover:bg-opacity-[.12] active:bg-orange-100 dark:active:bg-orange-200 dark:active:bg-opacity-[.24]",
+        "text-orange-600 dark:text-orange-200 bg-transparent border-solid border border-current hover:bg-orange-50 dark:hover:bg-orange-200/[.12] active:bg-orange-100 dark:active:bg-orange-200/[.24]",
     },
   ],
   defaultVariants: {
     colorScheme: "green",
-    varaint: "solid",
+    variant: "solid",
   },
 });
 
@@ -81,12 +81,12 @@ export type ButtonProps = VariantProps<typeof button> &
   React.ComponentPropsWithoutRef<"button">;
 
 export function Button(props: ButtonProps) {
-  const { colorScheme, size, varaint, className, ...delegated } = props;
+  const { colorScheme, size, variant, className, ...delegated } = props;
   return (
     <button
       className={button({
         colorScheme,
-        varaint,
+        variant,
         className,
         size,
       })}

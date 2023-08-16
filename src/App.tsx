@@ -17,13 +17,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" size="xs" colorScheme="green">
+          <Button variant="outline" size="xs" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" size="xs" colorScheme="orange">
+          <Button variant="outline" size="xs" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" size="xs" colorScheme="red">
+          <Button variant="outline" size="xs" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -35,13 +35,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" colorScheme="green">
+          <Button variant="outline" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" colorScheme="orange">
+          <Button variant="outline" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" colorScheme="red">
+          <Button variant="outline" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -59,13 +59,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" size="lg" colorScheme="green">
+          <Button variant="outline" size="lg" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" size="lg" colorScheme="orange">
+          <Button variant="outline" size="lg" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" size="lg" colorScheme="red">
+          <Button variant="outline" size="lg" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -107,7 +107,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="green"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
@@ -117,7 +117,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="orange"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
@@ -127,7 +127,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="red"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
@@ -148,13 +148,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" size="xs" colorScheme="green">
+          <Button variant="outline" size="xs" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" size="xs" colorScheme="orange">
+          <Button variant="outline" size="xs" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" size="xs" colorScheme="red">
+          <Button variant="outline" size="xs" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -166,13 +166,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" colorScheme="green">
+          <Button variant="outline" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" colorScheme="orange">
+          <Button variant="outline" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" colorScheme="red">
+          <Button variant="outline" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -190,13 +190,13 @@ export function App() {
         </div>
 
         <div className="flex gap-md">
-          <Button varaint="outline" size="lg" colorScheme="green">
+          <Button variant="outline" size="lg" colorScheme="green">
             Click Me
           </Button>
-          <Button varaint="outline" size="lg" colorScheme="orange">
+          <Button variant="outline" size="lg" colorScheme="orange">
             Click Me
           </Button>
-          <Button varaint="outline" size="lg" colorScheme="red">
+          <Button variant="outline" size="lg" colorScheme="red">
             Click Me
           </Button>
         </div>
@@ -238,7 +238,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="green"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
@@ -248,7 +248,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="orange"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
@@ -258,7 +258,7 @@ export function App() {
               md: "lg",
             }}
             colorScheme="red"
-            varaint="outline"
+            variant="outline"
           >
             Click Me
           </Button>
