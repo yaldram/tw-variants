@@ -3,11 +3,6 @@ import { Button } from "./Button";
 
 const themes = [
   {
-    id: "black",
-    bg: "bg-black-500 ring-black-500",
-    containerClass: "black-theme",
-  },
-  {
     id: "red",
     bg: "bg-red-500 ring-red-500",
     containerClass: "red-theme",
@@ -31,7 +26,7 @@ const themes = [
 
 export function App() {
   const [currentTheme, setCurrentTheme] = useState(themes[0]);
-  console.log(`${currentTheme.containerClass}-light`);
+
   return (
     <div className={currentTheme.containerClass}>
       <div className="flex justify-center gap-md mt-md">

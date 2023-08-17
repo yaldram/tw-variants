@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.black-theme {
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
-}
-
-.dark .black-theme {
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
-}
-
 .red-theme {
   --primary: 346.8 77.2% 49.8%;
   --primary-foreground: 355.7 100% 97.3%;
