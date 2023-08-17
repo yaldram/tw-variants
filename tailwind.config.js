@@ -133,19 +133,6 @@ export default withTV({
           'shadow': getPropertyValue('red500'),
           'DEFAULT': getPropertyValue('red600'),
         },
-
-        'neutral': {
-          'light': getPropertyValue('gray100'),
-          'light-hover': getPropertyValue('gray200'),
-          'light-active': getPropertyValue('gray300'),
-          'light-contrast': getPropertyValue('gray800'),
-
-          'border': getPropertyValue('gray400'),
-          'border-hover': getPropertyValue('gray500'),
-          'solid-hover': getPropertyValue('gray600'),
-          'shadow': getPropertyValue('gray400'),
-          'DEFAULT': getPropertyValue('gray600'),
-        },
       },
       spacing: spacingValues,
       borderRadius: {
