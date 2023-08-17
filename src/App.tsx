@@ -61,6 +61,24 @@ export function App() {
         </div>
 
         <div className="flex flex-wrap gap-xl m-xl">
+          <Button isShadow variant="ghost">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="secondary">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="success">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="warning">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="error">
+            Click Me
+          </Button>
+        </div>
+
+        <div className="flex flex-wrap gap-xl m-xl">
           <Button variant="flat">Click Me</Button>
           <Button variant="flat" colorScheme="secondary">
             Click Me
@@ -72,6 +90,24 @@ export function App() {
             Click Me
           </Button>
           <Button variant="flat" colorScheme="error">
+            Click Me
+          </Button>
+        </div>
+
+        <div className="flex flex-wrap gap-xl m-xl">
+          <Button isShadow variant="flat">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="secondary">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="success">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="warning">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="error">
             Click Me
           </Button>
         </div>
@@ -135,6 +171,24 @@ export function App() {
         </div>
 
         <div className="flex flex-wrap gap-xl m-xl">
+          <Button isShadow variant="ghost">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="secondary">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="success">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="warning">
+            Click Me
+          </Button>
+          <Button isShadow variant="ghost" colorScheme="error">
+            Click Me
+          </Button>
+        </div>
+
+        <div className="flex flex-wrap gap-xl m-xl">
           <Button variant="flat">Click Me</Button>
           <Button variant="flat" colorScheme="secondary">
             Click Me
@@ -146,6 +200,24 @@ export function App() {
             Click Me
           </Button>
           <Button variant="flat" colorScheme="error">
+            Click Me
+          </Button>
+        </div>
+
+        <div className="flex flex-wrap gap-xl m-xl">
+          <Button isShadow variant="flat">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="secondary">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="success">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="warning">
+            Click Me
+          </Button>
+          <Button isShadow variant="flat" colorScheme="error">
             Click Me
           </Button>
         </div>

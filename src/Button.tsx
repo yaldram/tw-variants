@@ -9,7 +9,6 @@ const baseButton = tv({
       success: "",
       warning: "",
       error: "",
-      neutral: "",
     },
     variant: {
       solid: "",
